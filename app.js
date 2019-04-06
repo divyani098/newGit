@@ -1,6 +1,7 @@
 var expr=require('express');
 var hbs=require('hbs');
 const fs=require('fs');
+const port=process.env.PORT || 3000;
 
 var app=expr();
 hbs.registerPartials(__dirname+'/views/Partial')
@@ -102,6 +103,6 @@ app.get('/attendance',(req,res)=>{
 	}
 	res.send(attendance);
 });
-app.listen(5000,()=>{
-	console.log('server is upto on port 5000!');
+app.listen(port,()=>{
+	console.log(`server is upto on port ${port}`);
 });

@@ -18,3 +18,5 @@ Sat Apr 06 2019 12:58:46 GMT+0530 (India Standard Time): GET / / http localhost 
 Sat Apr 06 2019 12:58:47 GMT+0530 (India Standard Time): GET /favicon.ico /favicon.ico http localhost ::1
 Sat Apr 06 2019 12:58:52 GMT+0530 (India Standard Time): GET / / http localhost ::1
 Sat Apr 06 2019 12:58:53 GMT+0530 (India Standard Time): GET /about /about http localhost ::1
+Sat Apr 06 2019 20:21:12 GMT+0530 (India Standard Time): GET / / http localhost ::1
+Sat Apr 06 2019 20:21:13 GMT+0530 (India Standard Time): GET /favicon.ico /favicon.ico http localhost ::1
