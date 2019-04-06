@@ -14,9 +14,9 @@ app.use((req,res,next)=>{
 	//var log=`${now}:${req.ip}`;
    var log=`${now}: ${req.method} ${req.url} ${req.path} ${req.protocol} ${req.host} ${req.ip}`;
 	console.log(log);
-	fs.appendFile('app.log',log +'\n');
-	next();
-})
+// 	fs.appendFile('app.log',log +'\n');
+// 	next();
+ })
 
 hbs.registerHelper('getCurrentYear',() =>{
 	return new Date().getFullYear()
